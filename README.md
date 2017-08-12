@@ -1,1 +1,1 @@
-# calculadora
+# Calculadora Desenvolvida em Angular 4
