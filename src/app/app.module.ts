@@ -3,14 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { CalculadoraModule } from './calculadora';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    CalculadoraModule
+    AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CalculadoraModule
   ],
   providers: [],
   bootstrap: [AppComponent]
