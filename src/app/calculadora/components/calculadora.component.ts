@@ -65,9 +65,9 @@ export class CalculadoraComponent implements OnInit {
         this.operation);
 
         this.operation = operation;
-        this.n1 = this.result.toString();
-        this.n2 = null;
-        this.result = null;
+        this.n1        = this.result.toString();
+        this.n2        = null;
+        this.result    = null;
 
     }
   }
@@ -90,8 +90,4 @@ export class CalculadoraComponent implements OnInit {
     }
     return this.n1;
   }
-
-
-  
-
 }

@@ -31,6 +31,5 @@ export class CalculadoraService {
        result = 0;
     }
       return result;
-
   }
 }
