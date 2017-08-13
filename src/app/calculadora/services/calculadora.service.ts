@@ -2,8 +2,8 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class CalculadoraService {
- /*Declaration of constant*/
  
+  //Declaration of constant
  static readonly SUM:             string = '+';
  static readonly SUBTRACTION:     string = '-';
  static readonly DIVISION:        string = '/';
